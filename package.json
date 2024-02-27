@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "main": "index.js",
   "types": "index.d.ts",
+  "private": "false",
+  "publishConfig": {
+    "access": "public"
+  },
   "napi": {
     "name": "rs-mem-cache",
     "triples": {}
