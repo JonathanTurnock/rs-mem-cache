@@ -122,7 +122,7 @@ jobs:
         run: ls -R .
         shell: bash
       - name: Test bindings
-        run: npm run test
+        run: npm i && npm run test
   test-linux-x64-gnu-binding:
     name: Test bindings on Linux-x64-gnu - node@${{ matrix.node }}
     needs:
@@ -152,7 +152,7 @@ jobs:
         run: ls -R .
         shell: bash
       - name: Test bindings
-        run: docker run --rm -v $(pwd):/build -w /build node:${{ matrix.node }}-slim npm run test
+        run: docker run --rm -v $(pwd):/build -w /build node:${{ matrix.node }}-slim npm i && npm run test
   publish:
     name: Publish
     runs-on: ubuntu-latest
