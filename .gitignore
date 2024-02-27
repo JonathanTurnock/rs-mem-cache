@@ -196,7 +196,3 @@ Cargo.lock
 
 *.node
 /.yarn/
-
-index.js
-index.ts
-index.d.ts
