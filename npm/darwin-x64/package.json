@@ -1,0 +1,18 @@
+{
+  "name": "rs-mem-cache-darwin-x64",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "rs-mem-cache.darwin-x64.node",
+  "files": [
+    "rs-mem-cache.darwin-x64.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
