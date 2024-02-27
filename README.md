@@ -22,9 +22,9 @@ Based on the test suite you've provided for the `SyncCache` class, here's a READ
 1. Add `rs-mem-cache` to your project dependencies using `yarn` or `npm`.
 
 ```bash
-yarn add sync-cache
+yarn add rs-mem-cache
 # or
-npm install sync-cache
+npm install rs-mem-cache
 ```
 
 ## Basic Usage
@@ -106,4 +106,4 @@ This is my first experiment with Rust, I would like to implement the following a
 - Expose the remaining functions
 - Make functions async so it uses tokio async mutex
 
-Make sure **rust** and **yarn** is installed, run `yarn install` and it should work with a `yarn build` and `yarn test`
+Make sure **rust** is installed, run `npm install` and it should work with a `npm run build` and `npm run test`
