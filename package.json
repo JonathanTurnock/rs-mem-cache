@@ -4,7 +4,11 @@
   "main": "index.js",
   "types": "index.d.ts",
   "private": "false",
+  "repository": {
+    "url": "https://github.com/JonathanTurnock/rs-mem-cache"
+  },
   "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "napi": {
