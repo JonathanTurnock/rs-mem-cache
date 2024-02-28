@@ -107,3 +107,10 @@ This is my first experiment with Rust, I would like to implement the following a
 - Make functions async so it uses tokio async mutex
 
 Make sure **rust** is installed, run `npm install` and it should work with a `npm run build` and `npm run test`
+
+To make a release run
+
+```shell
+npm version patch
+git push --follow-tags
+```
